@@ -3,6 +3,7 @@ package com.koto.servicesplayground
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,5 +23,9 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, MyService::class.java)
             stopService(i)
         }
+    }
+
+    fun onClick(view: View) {
+
     }
 }
